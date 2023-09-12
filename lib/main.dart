@@ -1,4 +1,5 @@
 import 'package:app/Homepage5.dart';
+import 'package:app/TabBar.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,7 +12,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Homepage55(),
+      debugShowCheckedModeBanner: false,
+      home: Mybar(),
     );
   }
 }
